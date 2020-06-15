@@ -1,5 +1,4 @@
 html {
-  font-size: 1.15em;
   line-height: inherit;
   margin: 1em;
 }
@@ -13,7 +12,7 @@ html {
 #landing nav {
     font-family: Times, sans-serif;
     font-style: italic;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #CCC;
   text-align: center;
   margin: 2em;
