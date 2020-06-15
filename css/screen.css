@@ -12,12 +12,13 @@ html, body {
 }
 
 #landing nav {
-    font-family: Helvetica, Arial, sans-serif;
-
+    font-family: Times, sans-serif;
+    font-style:italic;
   font-size: 1.2em;
   color: #CCC;
   text-align: center;
   margin: 2em;
+  letter-spacing:-0.1em;
 }
 
 #landing img {
