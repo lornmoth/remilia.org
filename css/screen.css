@@ -1,6 +1,7 @@
 html {
   line-height: inherit;
   margin: 1em;
+  font-size:1.2em;
 }
 
 #landing {
@@ -75,7 +76,12 @@ a:hover {color: orange;}
 
 /* NAVIGATION */
 nav {
-  margin-top: 1em;
+  background-color: black;
+/*  border: 1px solid white;*/
+  padding: 1em;
+  flex-flow: column;
+  margin: auto;
+
 }
 /*
 nav a {
