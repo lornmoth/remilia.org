@@ -1,0 +1,162 @@
+html {
+  line-height: inherit;
+  margin: 1em;
+  font-size:1.2em;
+}
+
+#landing {
+  font-family: Times, serif;
+  text-align: center;
+  margin-left: 1em;
+}
+
+#landing nav {
+    font-family: Times, sans-serif;
+    font-style: italic;
+  font-size: 1.5em;
+  color: #CCC;
+  text-align: center;
+  margin: 2em;
+  letter-spacing:-0.1em;
+}
+
+#landing img {
+  height: 45vh;
+}
+
+body {
+  color: white;
+  margin: 1em;
+  background-color: black;
+  margin-left: 20%;
+}
+
+#text div {
+ border: 1px solid white;
+  padding: 1em;
+max-width: 40em;
+margin:auto;
+  margin-top: 1em;
+background-color: black;
+color:white;
+}
+
+#text div quote {
+  margin: 2em;
+  color:gray;
+}
+
+h1 {
+  color: orange;
+  font-size: 2.3em;
+  letter-spacing: -0.1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.14em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1em;
+  text-decoration: underline;
+  font-weight: bold;
+}
+h3::before{
+  content:"[ ";
+}
+h3::after{
+  content:" ]";
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -2.2em;
+}
+
+li {
+  margin-bottom: 0.25em;
+}
+
+ul.tight li {
+  margin-bottom: 0.01em;
+}
+/*
+a{color: #0000EE; text-decoration: underline;}
+a:visited{color: inherit;}
+a:hover {color: orange;}
+*/
+
+/* NAVIGATION */
+nav {
+  background-color: black;
+/*  border: 1px solid white;*/
+  padding: 1em;
+  flex-flow: column;
+  margin: auto;
+
+}
+/*
+nav a {
+  color: #0068FF;
+}
+nav a:visited {
+  color: #0068FF;
+}*/
+nav li {
+  list-style-type: none;
+  margin-bottom: 0.5em;
+}
+
+nav.return a, nav.return a:visited {
+  color: white;
+  letter-spacing: -0.15em;
+}
+nav.return a:hover {
+  color: orange;
+}
+
+.vr {
+  width: 1px;
+  height: 100%;
+  background-color: #CCC;
+  position: fixed;
+  overflow: visible;
+  top: 0;
+  bottom: 0;
+  left: 10vw;
+  z-index: -1;
+}
+
+ul.upper li {
+  text-transform: uppercase;
+}
+
+
+/* Images */
+img {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  /*
+  border:1px solid #CCC;*/
+}
+
+img a:hover {border: 1px solid white; padding:1em;
+}
+/*HYPERLINKS*/
+a, a:visited {
+  color: orange;
+  font-weight:lighter;
+}
+
+a:hover {color: orange;}
+
+nav a[href="#"] {
+  color: white;
+  text-decoration: none;
+}

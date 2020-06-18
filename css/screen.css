@@ -24,6 +24,31 @@ html {
   height: 45vh;
 }
 
+#text div {
+ border: 1px solid white;
+  padding: 1em;
+max-width: 40em;
+margin:auto;
+  margin-top: 1em;
+background-color: black;
+color:lightgray;
+font-family: Times, serif;
+font-style:italic;
+letter-spacing:-0.05em;
+font-size:1.3em;
+}
+
+#border {
+border: 1px solid white;
+margin: 2em;
+}
+
+#gallery img {
+  width:400px;
+  height:400px;
+  display: inline-block;
+}
+
 body {
   color: white;
   margin: 1em;
