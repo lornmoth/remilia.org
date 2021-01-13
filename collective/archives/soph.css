@@ -443,6 +443,7 @@ dd {
   background: white;
   color: black;
   font-family: Times New Roman;
+  border-radius: 15px;
 }
 
 .border:hover{
