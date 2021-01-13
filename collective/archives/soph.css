@@ -167,7 +167,7 @@ em {
 
 date {
   font-style: italic;
-  color: grey;
+  color: lightblue;
 display: flex; justify-content: flex-end; 
 margin-top: 0.4em;
 
@@ -443,6 +443,11 @@ dd {
   background: white;
   color: black;
   font-family: Times New Roman;
+}
+
+.border:hover{
+  background:blue;
+  color:white;
 }
 
 .border-bottom {
