@@ -22,6 +22,8 @@ body {
   background-repeat: repeat;
   max-width: 38em;
   overflow-wrap: break-word;
+  background-attachment:fixed;
+
 }
 
 
