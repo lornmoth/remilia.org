@@ -248,24 +248,19 @@ figcaption {
   margin: 0.5em;
 }
 
-img head{
+.center img{
   max-width: 50%;
   margin: auto;
-  margin-top: 1.5em;
     margin-bottom: 1em;
-
+float:clear;
   display:flex;
 
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 1em;
 
   }
 
-.container{
-
-}
-
-img {
+.container img {
   margin: 6px;
 position:relative; top:-4px;  float: left
 }
