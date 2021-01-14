@@ -23,14 +23,27 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132762659-3"></script>
 <script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-132762659-3');</script>
-<style>body {font-family:sans-serif;
-}
 
-</style>
+<script>function search() {
+  let input = document.getElementById("search");
+  let list = document.getElementById("list");
+  let divs = list.getElementsByTagName("div");
+  for (let i = 0; i < divs.length; i++) {
+    let txtValue = divs[i].textContent || divs[i].innerText;
+    if (txtValue.toUpperCase().indexOf(input.value.toUpperCase()) > -1) {
+      divs[i].style.display = "";
+    } else {
+      divs[i].style.display = "none";
+    }
+  }
+}</script>
+
+
 </head>
 
 <body>
 	<nav><a href="index.html">← return ←</a></nav>
+<input type="text" id="search" onkeyup="search()" placeholder="Search archive..." />
 
 <article>
 <div class="border"><h1>Mara Barl</h1>
@@ -642,3 +655,8 @@ goodbye files, goodbye mara, i don't think this will be much of a leave but i'm 
 <div class='border'>
 <p>@slipnionline I'm really bad at cooking bc im sort've a soulless insect person so i have no intuition for food; sour gummy worms@the moment, i just bought these bc they had no worms &gt;.( <a href='https://pbs.twimg.com/media/EVGcBDKUwAI1VxH.jpg'>
 <img src='https://pbs.twimg.com/media/EVGcBDKUwAI1VxH.jpg' ></a><p><date>Wed Apr 08 2020</date></p></div>"
+
+</div>
+</article>
+</body>
+</html>

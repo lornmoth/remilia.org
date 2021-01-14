@@ -21,6 +21,21 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132762659-3"></script>
 <script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-132762659-3');</script>
 
+<script>function search() {
+  let input = document.getElementById("search");
+  let list = document.getElementById("list");
+  let divs = list.getElementsByTagName("div");
+  for (let i = 0; i < divs.length; i++) {
+    let txtValue = divs[i].textContent || divs[i].innerText;
+    if (txtValue.toUpperCase().indexOf(input.value.toUpperCase()) > -1) {
+      divs[i].style.display = "";
+    } else {
+      divs[i].style.display = "none";
+    }
+  }
+}</script>
+
+
 </head>
 <body id="landing">
 
