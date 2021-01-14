@@ -25,6 +25,14 @@ body {
 }
 
 
+nav {
+  text-align:center;
+  font-size:.75em;
+  font-style:italic;
+  margin-top:1em;
+}
+
+
 header {
   color: blue;
   margin-top: 2em;
