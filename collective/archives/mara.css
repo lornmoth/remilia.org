@@ -17,7 +17,7 @@ body {
   margin: 2em;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: green;
+  background-color: lightgreen;
   max-width: 38em;
   overflow-wrap: break-word;
 }
@@ -172,7 +172,7 @@ em {
 
 date {
   font-style: italic;
-  color: green;
+  color: lightgrey;
 display: flex; justify-content: flex-end; 
 margin-top: 0.4em;
 
@@ -229,7 +229,7 @@ blockquote::after, blockquote::before, q::after, q::before {
 figure {
   display: flex;
   flex-flow: column;
-  border: 1px solid white;
+  border: 1px outset white;
   padding: 0.5em;
   padding-bottom: 1em;
   margin: auto;
@@ -254,7 +254,7 @@ img {
 
   display:flex;
 
-  border: 1px solid white;
+  border: 1px outset white;
   padding: 1em;
 
   }
@@ -442,14 +442,15 @@ dd {
 
 /* BORDERS */
 .border {
-  border: 1px solid white;
+  border: 1px outset white;
   padding: 1em;
   margin-top: 1em;
-  background: blue;
+  background: green;
   color: white;
   font-family: monospace;
   font-size:1.1em;
   text-align:center;
+
 }
 
 .border:hover{
