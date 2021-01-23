@@ -1,0 +1,167 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+
+.footer {
+  color:black;
+  background-color:lightgreen;
+  padding-bottom:0.2em;
+  padding-top:0.01em;
+  font-size: 0.6em;
+  font-family:monospace;
+  width:100%;
+  position: fixed;
+  z-index: 1;  
+  bottom: 0;
+  margin-left:-1em;
+}
+
+.footer license {font-size:0.95em; }
+
+.wiredproj {  font-size:1em; margin-top:0.4em;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+  color:blue;   
+
+}
+
+.remco-container :hover {
+  background-color:blue;
+  color:White;
+}
+
+.remhouse-container :hover {
+  background-color:white;
+  color:black;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: black;
+  color:orange; 
+}
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+
+ul a:hover, .footer a:hover{
+text-decoration:underline;
+}
+
+.splitv {
+  height: 90%;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+  top: 50%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.bottom {
+  top:70%;
+  background-color: black;
+  color:orange;
+}
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.remco {
+  font-size:1.5em;
+  border: 1px solid blue;
+  background-color:white;
+padding:1.5em;
+  padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 50%;  font-style:italic;
+  font-family:serif;
+  max-width:10em;
+}
+
+.center{
+    width: 50%;
+  margin: 0 auto;
+
+}
+
+h2 {
+  color:black;
+  font-family:sans-serif;
+  font-weight:normal;
+  text-transform:uppercase;
+  font-size: 1em;
+  padding-top:1.5em;  padding-bottom:0.01em;
+}
+
+h3 {
+  color:red;
+  font-family:sans-serif;
+  font-weight:normal;
+  font-size: 0.9em;
+  padding-top:1.5em;  padding-bottom:0.01em;
+}
+
+.right h2 { color:white; }
+.right h3, .right .column {color:orange;}
+
+.remhouse {
+  font-size:1.5em;
+  border: 1px solid white;
+    background-color:black;
+
+  padding-top: .3em;
+    padding-bottom: .3em;
+font-style:italic;
+  font-family:serif;
+  max-width:10em;
+
+  }
+
+.wiredproj {
+  font-size:1.5em;
+text-align:center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+ul{list-style:none;   padding-top:0.01em;
+}
+
+li{  padding-bottom:.75em;
+}
+.two-column {
+  display: flex; 
+  color:red;
+  text-align:left;
+  width:100%;
+  font-size:0.9em;
+}
+.column{
+    flex: 50%;
+}
