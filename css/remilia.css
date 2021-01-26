@@ -1,26 +1,22 @@
 html {
   line-height: inherit;
   margin: 1em;
-  font-size:1.2em;
+  font-size:1.1em;
 }
 
 #landing {
-  font-family: Times, serif;
-  text-align: center;
+  font-family: Palatino, Georgia, Times, serif;
   margin-left: 1em;
 }
+
 
 #landing nav {
     font-family: Times, sans-serif;
     font-style: italic;
   font-size: 1.5em;
   color: #CCC;
-  text-align: center;
   margin: 2em;
   letter-spacing:-0.1em;
-}
-em {
-  padding-left:1em;
 }
 
 #landing img {
@@ -28,11 +24,22 @@ em {
 }
 
 body {
-  color: white;
+  color: black;
   margin: 1em;
-  background-color: black;
+  background-color: white;
   margin-left: 20%;
 }
+.container {
+  padding:3em;
+  background: lightyellow;
+  border:3px double black;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+.container2 {margin:2em;  max-width:38em; min-width:1em;}
 
 #text div {
  border: 1px solid white;
@@ -50,33 +57,36 @@ color:white;
 }
 
 h1 {
-  color: orange;
+  color: green;
   font-size: 2.3em;
   letter-spacing: -0.1em;
   text-align: center;
-  font-weight: bold;
+  font-weight: bold;    text-decoration: underline;
+
 }
 
 h2 {
-  font-size: 1.14em;
+  font-size: 1.2em;
+  color: black;
+  letter-spacing: -0.05em;
   font-weight: bold;
+    text-decoration: underline;
+
 }
 
 h3 {
   font-size: 1em;
-  text-decoration: underline;
   font-weight: bold;
-}
-h3::before{
-  content:"[ ";
-}
-h3::after{
-  content:" ]";
+ letter-spacing: -0.05em;
 }
 
 ul {
-  list-style-type: none;
-  margin-left: -2.2em;
+  list-style-type: circle;
+  margin-left: 0.25em;
+}
+
+ol {
+  list-style-type: lower-roman;
 }
 
 li {
@@ -145,15 +155,15 @@ img {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  /*
-  border:1px solid #CCC;*/
+  border:3px double #CCC;
+
 }
 
 img a:hover {border: 1px solid white; padding:1em;
 }
 /*HYPERLINKS*/
 a, a:visited {
-  color: orange;
+  color: green;
   font-weight:lighter;
 }
 
