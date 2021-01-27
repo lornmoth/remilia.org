@@ -38,8 +38,10 @@ body {
   align-items: center;
   }
 
-
 .container2 {margin:2em;  max-width:38em; min-width:1em;}
+
+highlight {color:darkred;}
+em {padding-left:1em;}
 
 #text div {
  border: 1px solid white;
