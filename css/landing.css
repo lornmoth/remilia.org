@@ -165,3 +165,6 @@ li{  padding-bottom:.75em;
 .column{
     flex: 50%;
 }
+
+@media screen and (max-width: 650px) {
+}

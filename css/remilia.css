@@ -175,3 +175,26 @@ nav a[href="#"] {
   color: white;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 650px) {
+  body {
+   margin:0.0em; 
+   background: lightyellow;
+   margin-left:0.0em;
+  }
+  html {
+    margin:0.0em;
+    font-size:1em;
+  }
+  .container {
+  padding:0.0em;
+  border:none;
+ display: block;
+  justify-content: center;
+  align-items: center;
+  }
+
+.container2 {margin:0.1em; }
+img{display:block;  width:50%; height:auto;}
+}
